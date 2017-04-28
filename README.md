@@ -16,6 +16,8 @@ In the 'data' directory create a text file called 'labels.txt'.  Put all the obj
 The 'data' directory is shared by the host and the docker container and it will put the results back into that directory.
 
 If you are using a docker-machine, you will have to start it and run docker-machine env and configure your env to point to it.
+## Docker pull
+docker pull npsvisionlab/vatic-docker
 
 ## RUNNING 
 
