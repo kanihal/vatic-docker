@@ -17,7 +17,7 @@ The 'data' directory is shared by the host and the docker container and it will 
 
 If you are using a docker-machine, you will have to start it and run docker-machine env and configure your env to point to it.
 ## Docker pull
-docker pull npsvisionlab/vatic-docker
+`docker pull npsvisionlab/vatic-docker`
 
 ## RUNNING 
 
@@ -43,7 +43,8 @@ After you annotate your videos, you can just hit the button "Output Labels" to s
 When you are done annotating the video just type in <ctl>c or exit to close the docker container.
 
 ## Generating Annotations
-turkic dump currentvideo -o /root/vatic/data/output.txt
+` turkic dump currentvideo -o /root/vatic/data/output.txt`
+
 ## Generating Matlab labels
 
 The software is setup to generate labelme annotation.  To generate matlab annotation, copy the myphp.php.matlab to the public/directory/myphp.php file. Then exit the docker terminal and re-run the docker command.  Now when you generate the output it will be in matlab format.
